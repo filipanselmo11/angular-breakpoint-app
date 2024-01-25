@@ -1,15 +1,16 @@
 <div class="home__component">
   <!-- <app-form></app-form> -->
-  <mat-grid-list
-   cols="3"
-   gutterSize="9px"
-   >
-    <mat-grid-tile
-      *ngFor="let item of listaComponente">
-        <app-card
-          titulo="{{ item.titulo }}"
-          descricao="{{ item.descricao }}">
-        </app-card>
+  <!-- <mat-grid-list cols="3" gutterSize="9px">
+    <mat-grid-tile *ngFor="let item of listaComponente">
+      <app-card titulo="{{ item.titulo }}" descricao="{{ item.descricao }}">
+      </app-card>
     </mat-grid-tile>
-  </mat-grid-list>
+  </mat-grid-list> -->
+  <h1 *ngIf="loading"> CArregando </h1>
+    <mat-grid-list cols="3" gutterSize="9px" #elseBlock>
+      <mat-grid-tile *ngFor="let item of listaComponente">
+        <app-card titulo="{{ item.titulo }}" descricao="{{ item.descricao }}">
+        </app-card>
+      </mat-grid-tile>
+    </mat-grid-list>
 </div>
