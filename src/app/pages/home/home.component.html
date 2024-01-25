@@ -1,1 +1,8 @@
-<p>HOME WORKS</p>
+<div class="home__component">
+  <!-- <app-form></app-form> -->
+  <mat-grid-list *ngFor="let item of listaComponente" cols="4" rows="2">
+    <mat-grid-tile>
+      <app-card titulo="{{ item.titulo }}" descricao="{{ item.descricao }}"></app-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

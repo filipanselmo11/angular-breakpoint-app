@@ -1,22 +1,27 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component, Input, OnDestroy } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
+import { takeUntil } from 'rxjs';
 
 @Component({
-  selector: 'app-layout',
+  selector: 'app-card',
   standalone: true,
-  imports: [],
-  templateUrl: './layout.component.html',
-  styleUrl: './layout.component.scss',
+  imports: [MatCardModule, MatButtonModule],
+  templateUrl: './card.component.html',
+  styleUrl: './card.component.scss',
 })
-export class LayoutComponent implements OnDestroy {
+export class CardComponent implements OnDestroy {
+  @Input() titulo!: string;
+  @Input() descricao!: string;
+
   destroyed = new Subject<void>();
   currentScreenSize: string = '';
 
   displayNameMap = new Map([
     [Breakpoints.XSmall, 'XSmall'],
-    [Breakpoints.Small, 'Small'],
+    [Breakpoints.Small, 'XSmall'],
     [Breakpoints.Medium, 'Medium'],
     [Breakpoints.Large, 'Large'],
     [Breakpoints.XLarge, 'XLarge'],
@@ -37,6 +42,7 @@ export class LayoutComponent implements OnDestroy {
           if (result.breakpoints[query]) {
             this.currentScreenSize =
               this.displayNameMap.get(query) ?? 'Unknown';
+            console.log('CURRENT SCREEN SIZE ', this.currentScreenSize);
           }
         }
       });
