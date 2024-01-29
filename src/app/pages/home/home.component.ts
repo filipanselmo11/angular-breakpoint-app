@@ -1,5 +1,4 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { FormComponent } from '../../components/form/form.component';
 import { CardComponent } from '../../components/card/card.component';
 import { NgFor, NgIf } from '@angular/common';
 import { ComponenteService } from '../../services/componente.service';
@@ -12,7 +11,7 @@ import { takeUntil } from 'rxjs';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [FormComponent, CardComponent, NgFor, HttpClientModule, MatGridListModule, NgIf],
+  imports: [CardComponent, NgFor, HttpClientModule, MatGridListModule, NgIf],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

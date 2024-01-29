@@ -15,6 +15,7 @@ import { takeUntil } from 'rxjs';
 export class CardComponent implements OnDestroy {
   @Input() titulo!: string;
   @Input() descricao!: string;
+  @Input() url!: string;
 
   destroyed = new Subject<void>();
   currentScreenSize: string = '';

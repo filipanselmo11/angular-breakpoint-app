@@ -2,77 +2,77 @@
   "componentes": [
     {
       "id": 1,
-      "titulo": "Componente-1",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "AutoComplete",
+      "descricao": "Sugere opções relevantes conforme o usuário digita"
     },
     {
       "id": 2,
-      "titulo": "Componente-2",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Badge",
+      "descricao": "Um pequeno indicador de valor que pode ser sobreposto em outro projeto"
     },
     {
       "id": 3,
-      "titulo": "Componente-3",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Bottom Sheet",
+      "descricao": "Um grande painel interativo principalmente para dispositivos móveis"
     },
     {
       "id": 4,
-      "titulo": "Componente-4",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Button",
+      "descricao": "Um botão interativo com diversas opções de apresentação"
     },
     {
       "id": 5,
-      "titulo": "Componente-5",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Button Toggle",
+      "descricao": "Um botão liga/desliga agrupável para ativar e desativar opções"
     },
     {
       "id": 6,
-      "titulo": "Componente-6",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Card",
+      "descricao": "Um contêiner estilizado para partes de conteúdo detalhado"
     },
     {
       "id": 7,
-      "titulo": "Componente-7",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Checkbox",
+      "descricao": "Captura entrada booleana com um modo indeterminado opcional"
     },
     {
       "id": 8,
-      "titulo": "Componente-8",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Chips",
+      "descricao": "Apresenta uma lista de itens como um conjunto de pequenas entidades táteis"
     },
     {
       "id": 9,
-      "titulo": "Componente-9",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Core",
+      "descricao": "Peças reutilizáveis ​​usadas por outros componentes da biblioteca"
     },
     {
       "id": 10,
-      "titulo": "Componente-10",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Datepicker",
+      "descricao": "Captura datas, agnóstico quanto à sua representação interna."
     },
     {
       "id": 11,
-      "titulo": "Componente-11",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Dialog",
+      "descricao": "Um modal configurável que exibe conteúdo dinâmico"
     },
     {
       "id": 12,
-      "titulo": "Componente-12",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Divider",
+      "descricao": "Um divisor visual vertical ou horizontal"
     },
     {
       "id": 13,
-      "titulo": "Componente-13",
-      "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
+      "titulo": "Expansion Panel",
+      "descricao": "Form Field"
     },
     {
       "id": 14,
-      "titulo": "Componente-11",
+      "titulo": "Form Field",
       "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
     },
     {
       "id": 15,
-      "titulo": "Componente-15",
+      "titulo": "Grid List",
       "descricao": "Aqui é um componente que faz alguma coisa, minha responsabilidade é fazer isso."
     }
   ]
